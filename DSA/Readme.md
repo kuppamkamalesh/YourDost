@@ -100,7 +100,7 @@ print("Second largest unique number:", result)
 
 ## 🧾 Sample Input/Output
 
-**Input:**
+**Input-1:**
 
 ```
 2 3 4 5 6 7 44 44 4 55 55 666 777 777
@@ -112,9 +112,31 @@ print("Second largest unique number:", result)
 Second largest unique number: 666
 ```
 
+**Input-2:**
+
+```
+7 7 7
+```
+
+**Output:**
+
+```
+Second largest unique number: -1
+```
+**Input-3:**
+
+```
+2 3 4 5 6 7 5 6
+```
+
+**Output:**
+
+```
+Second largest unique number: 6
+```
+
 ---
 
 **Author:** Kamalesh  
-**Language:** Python 🐍  
+**Language:** Python 
 **Complexity:** O(n) time | O(n) space  
-**Category:** Coding Challenge / Algorithm
